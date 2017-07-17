@@ -1,3 +1,5 @@
 ---
+# Pass the codename by extra vars from command line
+# ansible-playbook -i host static-include.yml --limit centos7 -e "codename=ocata"
 - include: "{{ codename }}.yml"
   static: yes
