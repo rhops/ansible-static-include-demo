@@ -1,7 +1,5 @@
 ---
 - hosts: all
   gather_facts: no
-  vars:
-    codename: ocata
   roles: 
     - { role: static-include-demo }
