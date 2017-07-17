@@ -1,0 +1,2 @@
+centos6 ansible_host=centos6.ansible.jeffli.me ansible_ssh_user=vagrant
+centos7 ansible_host=centos7.ansible.jeffli.me ansible_ssh_user=vagrant

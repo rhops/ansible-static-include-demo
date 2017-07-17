@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Jeff Li
+  description: Demonstrate static and dynamic include
+  license: Apache License 2.0
+  min_ansible_version: 2.1
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+  categories:
+    - demo
+dependencies: []

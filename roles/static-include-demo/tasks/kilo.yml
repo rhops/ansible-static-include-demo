@@ -1,0 +1,8 @@
+---
+- name: kilo task 1
+  debug:
+    msg: kilo task 1
+
+- name: kilo task 2
+  debug:
+    msg: kilo task 2
