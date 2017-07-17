@@ -2,6 +2,9 @@
 - name: ocata task 1
   debug:
     msg: ocata task 1
+  changed_when: yes
+  notify:
+    - ocata handler
 
 - name: ocata task 2
   debug:

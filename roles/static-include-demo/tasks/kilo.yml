@@ -2,6 +2,9 @@
 - name: kilo task 1
   debug:
     msg: kilo task 1
+  changed_when: yes
+  notify:
+    - kilo handler
 
 - name: kilo task 2
   debug:

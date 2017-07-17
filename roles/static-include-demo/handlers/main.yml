@@ -1,0 +1,3 @@
+---
+- include: "{{ codename }}.yml"
+  static: yes
